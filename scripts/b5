@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+echo "no extension (should still scan), SC2154, SC2005, SC2000"
+echo "$( echo "$variable" | wc -m )"
+
