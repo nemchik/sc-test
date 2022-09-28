@@ -1,0 +1,6 @@
+#!/usr/bin/with-contenv bash
+# shellcheck shell=bash
+
+echo "shell directive (should be fine), no extension (should still scan), SC2154, SC2005, SC2000"
+echo "$( echo "$variable" | wc -m )"
+
